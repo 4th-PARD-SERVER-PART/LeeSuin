@@ -22,7 +22,7 @@
 <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw1/src/main/java/com/pard/server/hw1/img/menu2_result.png" width=70%><br>
 ## 3. 상대방 기기 연결
 ### - result image("Properties")
-<img src = "https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw1/src/main/java/com/pard/server/hw1/Readme.md" width=70%><br>
+<img src = "https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw1/src/main/java/com/pard/server/hw1/img/applicationproperties_result.png" width=70%><br>
 ### - result image("postman")
 - <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw1/src/main/java/com/pard/server/hw1/img/postman_result.png"><br>
 ### - result image("연결 화면")

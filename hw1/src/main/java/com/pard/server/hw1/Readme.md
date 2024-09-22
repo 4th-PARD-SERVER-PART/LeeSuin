@@ -4,7 +4,8 @@
 
 ## 2. CafeRestController
 ### - result image(/cafeRest)
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw1/src/main/java/com/pard/server/hw1/img/cafeRest_result.png" width=70%>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw1/src/main/java/com/pard/server/hw1/img/cafeRest_result.png" width=70%><br>
+
 ### - result image(/menu/{type})
 - Drink case
  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw1/src/main/java/com/pard/server/hw1/img/menuDrink_result.png" width=70%>
@@ -23,7 +24,7 @@
 ### - result image("Properties")
 <img src = "https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw1/src/main/java/com/pard/server/hw1/Readme.md" width=70%>
 ### - result image("postman")
-- <img src="">
+- <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw1/src/main/java/com/pard/server/hw1/img/postman_result.png">
 ### - result image("연결 화면")
 - <img src="">
 

@@ -34,7 +34,7 @@
    - **설명:** 저장된 모든 티니핑 캐릭터 정보를 한 번에 조회합니다.<br>
    - **사용법:** 별도의 입력 없이 전체 캐릭터 리스트를 확인할 수 있습니다.<br>
    - **결과 화면:**<br>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindAll.png" width = 50%><br>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindAll.png" width = 40%><br>
 <hr>
 
 ### 4. Update By Id (UPDATE)
@@ -48,7 +48,7 @@
      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Update_After.png" width = 40%><br>
      <p></p>
      * Update 후 전체 캐릭터 조회 결과:<br>
-     <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindAll_AfterUpdate.png" width = 50%><br>
+     <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindAll_AfterUpdate.png" width = 40%><br>
 <hr>
 
 ### 5. Delete By Id (DELETE)
@@ -56,4 +56,4 @@
 - **설명:** 특정 ID를 가진 캐릭터 정보를 삭제합니다.
 - **사용법:** 삭제할 캐릭터의 ID를 입력하여 해당 캐릭터를 삭제합니다.
     - **결과 화면:**<br>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Delete.png" width = 50%>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Delete.png" width = 40%>

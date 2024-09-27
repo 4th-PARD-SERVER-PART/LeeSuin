@@ -12,8 +12,10 @@
    - **설명:** 새로운 티니핑 캐릭터 정보를 추가하고 저장합니다.<br>
    - **사용법:** 캐릭터의 정보(Id, 이름, 색깔)를 입력합니다. <br>
    - **결과 화면:<br>**
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Create1.png" width = 50%>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Create2.png" width = 50%><br>
+<p>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Create1.png" width = 40%>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Create2.png" width = 40%><br>
+</p>
 <hr>
 ### 2. Find By Id (READ v1)
 
@@ -36,9 +38,9 @@
    - **사용법:** 수정할 캐릭터의 ID와 새로운 정보를 입력하여 업데이트합니다.<br>
    - **결과 화면:**<br>
      * Update 전: <br>
-     <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Update_Before.png" width = 50%>
+     <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Update_Before.png" width = 50%><br>
      * Update 후: <br>
-     <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Update_After.png" width = 50%>
+     <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Update_After.png" width = 50%><br>
      * Update 후 전체 캐릭터 조회 결과:<br>
      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindAll_AfterUpdate.png" width = 50%><br>
 <hr>

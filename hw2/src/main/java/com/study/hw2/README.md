@@ -42,7 +42,7 @@
    - **설명:** Id를 사용하여 특정 캐릭터의 정보를 수정합니다. <br>
    - **사용법:** 수정할 캐릭터의 ID와 새로운 정보를 입력하여 업데이트합니다.<br>
    - **결과 화면:**<br>
-     * Update 전:  ------------------------->    Update 후: <br>
+     * Update 전:  --------------------------------->    Update 후: <br>
      <p>
      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Update_Before.png" width = 40%>
      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Update_After.png" width = 40%><br>

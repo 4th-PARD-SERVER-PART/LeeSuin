@@ -18,7 +18,7 @@
 </p>
 <hr>
 
-### 2. Find By Id (READ v1)
+### 2. Read By Id (READ v1)
 
 - **설명:** 특정 ID로 버거킹 메뉴 정보를 조회합니다.<br>
 - **사용법:** 조회할 버거킹 메뉴의 ID를 입력하여 해당 버거킹 메뉴의 상세 정보를 확인합니다.<br>
@@ -29,7 +29,7 @@
 </p>
 <hr>
 
-### 3. Find All (READ v2)
+### 3. Read All (READ v2)
 
 - **설명:** 저장된 모든 버거킹 메뉴 정보를 한 번에 조회합니다.<br>
 - **사용법:** 별도의 입력 없이 전체 버거킹 메뉴 리스트를 확인할 수 있습니다.<br>
@@ -57,6 +57,7 @@
 - **사용법:** 삭제할 버거킹 메뉴의 ID를 입력하여 해당 버거킹 메뉴를 삭제합니다.
     - **결과 화면:**<br>
       <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/delete_1.png" width = 40%><br>
+    <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readall_after%20delete.png" width = 40%><br>
 <hr>
 
 ### 6. Database Table(Database 상태)

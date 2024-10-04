@@ -13,8 +13,8 @@
 - **사용법:** 버거킹 메뉴 정보(이름, 타입, 가격)를 입력합니다. <br>
 - **결과 화면:<br>**
 <p>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Create1.png" width = 40%>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Create2.png" width = 40%><br>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/save_1.png" width = 40%>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/save_2.png" width = 40%><br>
 </p>
 <hr>
 
@@ -24,8 +24,8 @@
 - **사용법:** 조회할 버거킹 메뉴의 ID를 입력하여 해당 버거킹 메뉴의 상세 정보를 확인합니다.<br>
 - **결과 화면:<br>**
 <p>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindById.png" width = 40%>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindById2.png" width = 40%><br>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readbyId_1.png" width = 40%>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readbyId_2.png" width = 40%><br>
 </p>
 <hr>
 
@@ -34,7 +34,7 @@
 - **설명:** 저장된 모든 버거킹 메뉴 정보를 한 번에 조회합니다.<br>
 - **사용법:** 별도의 입력 없이 전체 버거킹 메뉴 리스트를 확인할 수 있습니다.<br>
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindAll.png" width = 40%><br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readAll_1.png" width = 40%><br>
 <hr>
 
 ### 4. Update By Id (UPDATE)
@@ -44,8 +44,8 @@
 - **결과 화면:**<br>
     * Update 전:  --------------------------------->    Update 후: <br>
   <p>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Update_Before.png" width = 40%>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Update_After.png" width = 40%><br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/update_1.png" width = 40%>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readbyId_2.png" width = 40%><br>
   <p></p>
   * Update 후 전체 버거킹 메뉴 조회 결과:<br>
   <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindAll_AfterUpdate.png" width = 40%><br>
@@ -56,9 +56,9 @@
 - **설명:** 특정 ID를 가진 버거킹 메뉴 정보를 삭제합니다.
 - **사용법:** 삭제할 버거킹 메뉴의 ID를 입력하여 해당 버거킹 메뉴를 삭제합니다.
     - **결과 화면:**<br>
-      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Delete.png" width = 40%><br>
+      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/delete_1.png" width = 40%><br>
 <hr>
 
 ### 6. Database Table(Database 상태)
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/Delete.png" width = 40%><br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/database_table.png" width = 40%><br>

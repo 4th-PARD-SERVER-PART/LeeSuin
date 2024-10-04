@@ -1,4 +1,4 @@
-package com.pard.study.hw3.bugerking.entity;
+package com.pard.study.hw3.burgerking.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -7,7 +7,6 @@ import jakarta.persistence.Id;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 @Entity
@@ -16,10 +15,10 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Buger {
+public class Burger {
     @Id
     @GeneratedValue
-    private Long bugerId;
+    private Long burgerId;
 
     @Column(name = "name", length = 20, nullable = false)
     private String name;

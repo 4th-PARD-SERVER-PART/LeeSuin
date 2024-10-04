@@ -1,7 +1,7 @@
 # HW3(week6)
 ## 🍔 Welcome to BurgerKing CRUD Application 👑
 
-> **Bugerking Menu** This is a simple CRUD application for managing burgers 🍔, fries 🍟, and drinks 🥤.
+> **Burgerking Menu** This is a simple CRUD application for managing burgers 🍔, fries 🍟, and drinks 🥤.
 
 <hr>
 
@@ -56,10 +56,31 @@
 - **설명:** 특정 ID를 가진 버거킹 메뉴 정보를 삭제합니다.
 - **사용법:** 삭제할 버거킹 메뉴의 ID를 입력하여 해당 버거킹 메뉴를 삭제합니다.
     - **결과 화면:**<br>
-      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/delete_1.png" width = 40%><br>
+      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/delete_1.png" width = 40%>
     <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readall_after%20delete.png" width = 40%><br>
 <hr>
 
-### 6. Database Table(Database 상태)
+### 6. Ascending by Name
+- **설명:** 저장된 버거의 메뉴 리스트를 이름 순서대로 정렬합니다.
+- **결과 화면:**<br>
+      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readByName.png" width = 40%>
+<br><hr>
+### 7. Ascending by price
+- **설명:** 저장된 버거의 메뉴 리스트를 가격이 저렴한 순서대로 정렬합니다.
+- **결과 화면:**<br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readByPrice.png" width = 40%>
+<br><hr>
+### 8. ReadBy Type
+- **설명:** 검색에 사용된 type 파라미터로 지정된 type 리스트를 보여줍니다.
+- **결과 화면:**<br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readByType.png" width = 40%>
+<br><hr>
+
+### 10. JPA 3가지 기능 추가
+- **결과 화면:**<br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/jpa_result.png" width = 40%>
+  <br><hr>
+
+### 10. Database Table(Database 상태)
 - **결과 화면:**<br>
   <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/database_table.png" width = 40%><br>

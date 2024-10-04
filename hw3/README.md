@@ -42,13 +42,8 @@
 - **설명:** Id를 사용하여 특정 버거킹 메뉴의 정보를 수정합니다. <br>
 - **사용법:** 수정할 버거킹 메뉴의 ID와 새로운 정보를 입력하여 업데이트합니다.<br>
 - **결과 화면:**<br>
-    * Update 전:  --------------------------------->    Update 후: <br>
   <p>
   <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/update_1.png" width = 40%>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/readbyId_2.png" width = 40%><br>
-  <p></p>
-  * Update 후 전체 버거킹 메뉴 조회 결과:<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindAll_AfterUpdate.png" width = 40%><br>
 <hr>
 
 ### 5. Delete By Id (DELETE)

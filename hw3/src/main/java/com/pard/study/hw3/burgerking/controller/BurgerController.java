@@ -22,7 +22,7 @@ public class BurgerController {
         return burgerService.read(burgerId);
     }
 
-    @GetMapping("/{type}")
+    @GetMapping("/type/{type}")
     public List<BurgerDto> readByType(@PathVariable String type){
         return burgerService.read(type);
     }

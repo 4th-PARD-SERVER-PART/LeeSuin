@@ -1,4 +1,4 @@
-package com.pard.study.hw3.bugerking.dto;
+package com.pard.study.hw3.burgerking.dto;
 
 import lombok.*;
 
@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class BugerDto {
+public class BurgerDto {
     private String name;
     private String type;
     private Double price;

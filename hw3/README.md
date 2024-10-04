@@ -13,8 +13,8 @@
 - **사용법:** 버거킹 메뉴 정보(이름, 타입, 가격)를 입력합니다. <br>
 - **결과 화면:<br>**
 <p>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/save_1.png" width = 40%>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/save_2.png" width = 40%><br>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/save_1.png" width = 40%>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/save_2.png" width = 40%><br>
 </p>
 <hr>
 
@@ -24,8 +24,8 @@
 - **사용법:** 조회할 버거킹 메뉴의 ID를 입력하여 해당 버거킹 메뉴의 상세 정보를 확인합니다.<br>
 - **결과 화면:<br>**
 <p>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readbyId_1.png" width = 40%>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readbyId_2.png" width = 40%><br>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/readbyId_1.png" width = 40%>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/readbyId_2.png" width = 40%><br>
 </p>
 <hr>
 
@@ -34,7 +34,7 @@
 - **설명:** 저장된 모든 버거킹 메뉴 정보를 한 번에 조회합니다.<br>
 - **사용법:** 별도의 입력 없이 전체 버거킹 메뉴 리스트를 확인할 수 있습니다.<br>
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readAll_1.png" width = 40%><br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/readAll_1.png" width = 40%><br>
 <hr>
 
 ### 4. Update By Id (UPDATE)
@@ -44,8 +44,8 @@
 - **결과 화면:**<br>
     * Update 전:  --------------------------------->    Update 후: <br>
   <p>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/update_1.png" width = 40%>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readbyId_2.png" width = 40%><br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/update_1.png" width = 40%>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/readbyId_2.png" width = 40%><br>
   <p></p>
   * Update 후 전체 버거킹 메뉴 조회 결과:<br>
   <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw2/src/main/java/com/study/hw2/img/FindAll_AfterUpdate.png" width = 40%><br>
@@ -56,31 +56,31 @@
 - **설명:** 특정 ID를 가진 버거킹 메뉴 정보를 삭제합니다.
 - **사용법:** 삭제할 버거킹 메뉴의 ID를 입력하여 해당 버거킹 메뉴를 삭제합니다.
     - **결과 화면:**<br>
-      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/delete_1.png" width = 40%>
-    <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readall_after%20delete.png" width = 40%><br>
+      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/delete_1.png" width = 40%>
+    <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/readall_after%20delete.png" width = 40%><br>
 <hr>
 
 ### 6. Ascending by Name
 - **설명:** 저장된 버거의 메뉴 리스트를 이름 순서대로 정렬합니다.
 - **결과 화면:**<br>
-      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readByName.png" width = 40%>
+      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/readByName.png" width = 40%>
 <br><hr>
 ### 7. Ascending by price
 - **설명:** 저장된 버거의 메뉴 리스트를 가격이 저렴한 순서대로 정렬합니다.
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readByPrice.png" width = 40%>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/readByPrice.png" width = 40%>
 <br><hr>
 ### 8. ReadBy Type
 - **설명:** 검색에 사용된 type 파라미터로 지정된 type 리스트를 보여줍니다.
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/readByType.png" width = 40%>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/readByType.png" width = 40%>
 <br><hr>
 
 ### 10. JPA 3가지 기능 추가
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/jpa_result.png" width = 40%>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/jpa_result.png" width = 40%>
   <br><hr>
 
 ### 10. Database Table(Database 상태)
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/bugerking/img/database_table.png" width = 40%><br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw3/src/main/java/com/pard/study/hw3/burgerking/img/database_table.png" width = 40%><br>

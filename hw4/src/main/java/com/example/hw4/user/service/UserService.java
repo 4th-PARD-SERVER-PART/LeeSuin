@@ -1,9 +1,9 @@
-package com.pard.study.seminar4.user.service;
+package com.example.hw4.user.service;
 
-import com.pard.study.seminar4.user.dto.UserRequest;
-import com.pard.study.seminar4.user.dto.UserResponse;
-import com.pard.study.seminar4.user.entity.User;
-import com.pard.study.seminar4.user.repository.UserRepository;
+import com.example.hw4.user.dto.UserRequest;
+import com.example.hw4.user.dto.UserResponse;
+import com.example.hw4.user.entity.User;
+import com.example.hw4.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -13,19 +13,16 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class UserService {
     private final UserRepository userRepository;
-    //Front로 받을 때
     public UserResponse.ReadUser readUser(Long id){
         Optional<User> u = userRepository.findById(id);
         User user = u.get();
         UserResponse.ReadUser ret = UserResponse.ReadUser.from(user);
         return ret;
     }
-    //받은 걸로 객체를 서비스로 넘길 때
     public void createUser(UserRequest.UserCreateRequest req){
-        User u = new User(null, req.getName(), req.getBook(), null);
+        User u = new User(null, req.getName(), req.getTbpost());
         userRepository.save(u);
     }
-
     public void deleteUser(Long userId){
         User user = userRepository.findById(userId).orElseThrow(IllegalAccessError::new);
         userRepository.delete(user);

@@ -21,6 +21,10 @@ public class UserController {
         userService.createUser(req);
     }
 
+    @PatchMapping("/{userId}")
+    public UserResponse.ReadUser update(@PathVariable Long userId, @RequestBody UserRequest.UserCreateRequest req){
+        return userService.updateUser(userId, req);
+    }
     @DeleteMapping("/{userId}")
     public void deleteUser(@PathVariable Long userId){
         userService.deleteUser(userId);

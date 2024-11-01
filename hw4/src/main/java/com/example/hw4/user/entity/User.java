@@ -1,11 +1,13 @@
 package com.example.hw4.user.entity;
 
+import com.example.hw4.tblike.entity.Tblike;
 import com.example.hw4.tbpost.entity.Tbpost;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -22,4 +24,10 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Tbpost> tbpost;
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Tblike> tblikes = new ArrayList<>();
+
+    public void update(String name){
+        this.name = name;
+    }
 }

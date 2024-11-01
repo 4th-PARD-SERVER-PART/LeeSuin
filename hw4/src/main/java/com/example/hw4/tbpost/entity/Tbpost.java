@@ -1,10 +1,14 @@
 package com.example.hw4.tbpost.entity;
 
+import com.example.hw4.tblike.entity.Tblike;
 import com.example.hw4.user.entity.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Getter
@@ -23,7 +27,14 @@ public class Tbpost {
     @JoinColumn(name = "user_id")
     private User user;
 
+    @OneToMany(mappedBy = "tbpost", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Tblike> tblikes = new ArrayList<>();
     public static Tbpost from(String title, String content, User user){
-        return new Tbpost(null, title, content, user);
+        return new Tbpost(null, title, content, user, new ArrayList<>());
+    }
+
+    public void update(String title, String content){
+        this.title = title;
+        this.content = content;
     }
 }

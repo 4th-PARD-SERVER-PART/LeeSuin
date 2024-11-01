@@ -11,25 +11,12 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 public class UserRequest {
-    @Getter
-    @Builder
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public static class UserReadRequest {
-        private Long id;
-        private String name;
-        private List<Tbpost> tbposts;
-
-        public static UserReadRequest from(User u) {
-            return new UserReadRequest(u.getId(), u.getName(), u.getTbpost());
-        }
-    }
 
         @Getter
+        @Builder
         @JsonInclude(JsonInclude.Include.NON_NULL)
         @NoArgsConstructor @AllArgsConstructor
         public static class UserCreateRequest{
             private String name;
-            private List<Tbpost> tbpost;
     }
 }

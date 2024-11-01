@@ -18,9 +18,8 @@ public class UserResponse {
         private String name;
         private List<TbpostResponse.TbpostReadResponse> tbposts;
 
-        public static ReadUser from(User user){
-            return new ReadUser(user.getName(),
-                    TbpostResponse.TbpostReadResponse.tbpostToDto(user.getTbpost()));
+        public static ReadUser from(User user, List<TbpostResponse.TbpostReadResponse> tbposts){
+            return new ReadUser(user.getName(), tbposts);
         }
     }
 }

@@ -1,5 +1,6 @@
 package com.example.hw4.tbpost.dto;
 
+import com.example.hw4.tblike.repository.TblikeRepository;
 import com.example.hw4.tbpost.entity.Tbpost;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,15 +19,23 @@ public class TbpostResponse {
         private Long tbpostId;
         private String title;
         private String content;
+        private int likeCount;
+        private boolean likedByCurrentUser;
 
-        public static List<TbpostReadResponse> tbpostToDto(List<Tbpost> tbposts){
+        public static List<TbpostReadResponse> tbpostToDto(List<Tbpost> tbposts, List<Long> likedPostId, TblikeRepository tblikeRepository){
             List<TbpostReadResponse> ret = new ArrayList<>();
             for(Tbpost tbpost : tbposts){
+                int likeCount = tblikeRepository.countByTbpost(tbpost);
+                boolean likedByCurrentUser = likedPostId.contains(tbpost.getId());
                 TbpostReadResponse b =
-                        new TbpostReadResponse(tbpost.getId(), tbpost.getTitle(), tbpost.getContent());
+                        new TbpostReadResponse(tbpost.getId(), tbpost.getTitle(), tbpost.getContent(), likeCount, likedByCurrentUser);
                 ret.add(b);
             }
             return ret;
         }
     }
+
+
+
+
 }

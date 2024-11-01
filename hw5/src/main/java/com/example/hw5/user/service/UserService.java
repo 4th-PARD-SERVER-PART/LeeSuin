@@ -44,13 +44,13 @@ public class UserService {
         return UserResponse.ReadUser.from(user, tbposts);
     }
     public void createUser(UserRequest.UserCreateRequest req){
-        User u = new User(null, req.getName(), null, new ArrayList<>());
+        User u = new User(null, req.getName(), req.getEmail(), null, new ArrayList<>());
         userRepository.save(u);
     }
     public UserResponse.ReadUser updateUser(Long userId, UserRequest.UserCreateRequest req){
         Optional<User> u = userRepository.findById(userId);
         User user = u.get();
-        user.update(req.getName());
+        user.update(req.getName(), req.getEmail());
         userRepository.save(user);
         return readUser(userId);
     }

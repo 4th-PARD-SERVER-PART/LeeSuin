@@ -20,6 +20,7 @@ public class User {
     private Long id;
 
     private String name;
+    private String email;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Tbpost> tbpost;
@@ -27,7 +28,9 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Tblike> tblikes = new ArrayList<>();
 
-    public void update(String name){
+
+    public void update(String name, String email){
         this.name = name;
+        this.email = email;
     }
 }

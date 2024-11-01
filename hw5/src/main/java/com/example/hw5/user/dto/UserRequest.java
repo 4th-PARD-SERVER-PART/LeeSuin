@@ -16,5 +16,6 @@ public class UserRequest {
         @NoArgsConstructor @AllArgsConstructor
         public static class UserCreateRequest{
             private String name;
+            private String email;
     }
 }

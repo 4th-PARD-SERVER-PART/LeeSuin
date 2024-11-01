@@ -16,10 +16,11 @@ public class UserResponse {
     @AllArgsConstructor
     public static class ReadUser{
         private String name;
+        private String email;
         private List<TbpostResponse.TbpostReadResponse> tbposts;
 
         public static ReadUser from(User user, List<TbpostResponse.TbpostReadResponse> tbposts){
-            return new ReadUser(user.getName(), tbposts);
+            return new ReadUser(user.getName(),user.getEmail(), tbposts);
         }
     }
 }

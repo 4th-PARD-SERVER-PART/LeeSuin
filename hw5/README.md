@@ -33,8 +33,11 @@
 - **사용법:** 로그인을 하면 사용자의 정보가 저장됩니다. <br>
 - **결과 화면:<br>**
 <p>
+로그인 화면<br>
 <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw5/src/main/java/com/example/hw5/img/GoogleLogin.png" width = 80%><br>
+INFO 화면<br>
 <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw5/src/main/java/com/example/hw5/img/Info.png" width = 80%><br>
+database 화면<br>
 <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw5/src/main/java/com/example/hw5/img/Database.png" width = 80%><br>
 
 </p>

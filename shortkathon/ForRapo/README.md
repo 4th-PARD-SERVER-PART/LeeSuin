@@ -1,7 +1,7 @@
 # SHORTKATHON
 ## Welcome to For-Rapo Application 👑
 
-> **Post CRUD** This is a simple CRUD application for managing Post.
+> **Post CRUD** 이 프로그램은 화합과 하모니를 이루기 위한 레퍼런스를 제공하는 간단한 crud 프로그램입니다.
 
 <hr>
 

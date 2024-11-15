@@ -9,7 +9,7 @@
 
 ### 0. ERD 소개
 <p>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw4/src/main/java/com/example/hw4/img/add_user.png" width = 80%><br>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/shortkathon/ForRapo/src/main/java/com/example/forrapo/Img/Erd.png" width = 80%><br>
 </p>
 
 ### 1. Add User
@@ -28,25 +28,25 @@
 - **사용법:** 라포형성 및 화합을 위한 프로그램의 간단한 설명 및 제목, 시간, 인원수 등을 기입합니다. <br>
 - **결과 화면:<br>**
 <p>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw4/src/main/java/com/example/hw4/img/create_post_userId.png" width = 80%><br>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/shortkathon/ForRapo/src/main/java/com/example/forrapo/Img/CreatePost.png" width = 80%><br>
 </p>
 <hr>
 
-### 3. Read By User Id
+### 3. Read All
 
-- **설명:** 저장된 게시판을 User ID 정보에 구분하여 조회합니다.<br>
-- **사용법:** UserId를 입력하여 해당 User가 작성한 게시판의 정보를 조회합니다.<br>
+- **설명:** 저장된 게시판을 전체 조회합니다.<br>
+- **사용법:** 작성한 게시판의 정보를 조회합니다.<br>
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw4/src/main/java/com/example/hw4/img/read_by_userId.png" width = 80%><br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/shortkathon/ForRapo/src/main/java/com/example/forrapo/Img/GetAll.png" width = 80%><br>
 <hr>
 
 
-### 4. Delete By Post Id (DELETE POST)
+### 4. Delete By contents Id (DELETE POST)
 
-- **설명:** 특정 ID를 가진 게시판을 삭제합니다.
-- **사용법:** 삭제할 게시판의 postId를 입력하여 해당 게시판을 삭제합니다.
+- **설명:** 특정 ID를 가진 게임 및 프로그램을 삭제합니다.
+- **사용법:** 삭제할 contents의 postId를 입력하여 해당 contents를 삭제합니다.
     - **결과 화면:**<br>
-      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw4/src/main/java/com/example/hw4/img/delete_post.png" width = 80%>
+      <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/shortkathon/ForRapo/src/main/java/com/example/forrapo/Img/delet.png" width = 80%>
 <hr>
 
 ### 5. Get User

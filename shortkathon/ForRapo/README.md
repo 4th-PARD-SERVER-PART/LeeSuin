@@ -60,6 +60,6 @@
 - **설명:** 게시판은 좋아요의 개수 정보, User는 좋아요를 누른 게시판에 대한 정보를 알고 있어야합니다.
 - **사용법:** 좋아요를 누를 게시판과 나 자신이 누구인지 User정보를 선택한 후 like toggle 함수를 실행시킵니다. 한번 더 실행할 경우 개수가 늘어나지 않고 좋아요가 취소됩니다.
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw4/src/main/java/com/example/hw4/img/like_post.png" width = 80%>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw4/src/main/java/com/example/hw4/img/like_status.png" width = 80%><br>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/shortkathon/ForRapo/src/main/java/com/example/forrapo/Img/postLike.png" width = 80%>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/shortkathon/ForRapo/src/main/java/com/example/forrapo/Img/Like.png" width = 80%><br>
   <br><hr>

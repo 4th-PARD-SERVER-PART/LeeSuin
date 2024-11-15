@@ -31,7 +31,7 @@ public class PostController {
         postService.delete(postId);
     }
 
-    @PostMapping("/{tbpostId}/like/{userId}")
+    @PostMapping("/{postId}/like/{userId}")
     public LikeResponse toggleLike(@PathVariable Long postId, @PathVariable Long userId) {
         return likeService.toggleLike(userId, postId); // 좋아요 토글 기능 호출
     }

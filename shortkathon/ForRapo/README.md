@@ -18,7 +18,7 @@
 - **사용법:** 사용자의 이름, password, nickname 입력합니다. <br>
 - **결과 화면:<br>**
 <p>
-<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw4/src/main/java/com/example/hw4/img/add_user.png" width = 80%><br>
+<img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/shortkathon/ForRapo/src/main/java/com/example/forrapo/Img/PostUser.png" width = 80%><br>
 </p>
 <hr>
 
@@ -52,7 +52,7 @@
 ### 5. Get User
 - **설명:** userId를 사용하여 해당 User을 읽어옵니다.
 - **결과 화면:**<br>
-  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/hw4/src/main/java/com/example/hw4/img/get_user.png" width = 80%>
+  <img src="https://github.com/4th-PARD-SERVER-PART/LeeSuin/blob/main/shortkathon/ForRapo/src/main/java/com/example/forrapo/Img/GetUser.png" width = 80%>
   <br><hr>
 -
 

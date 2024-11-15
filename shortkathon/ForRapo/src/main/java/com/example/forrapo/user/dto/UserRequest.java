@@ -14,7 +14,7 @@ public class UserRequest {
     @AllArgsConstructor
     public static class UserCreateRequest {
         private String name;
-        private String userId;
+        private String nickname;
         private String password;
     }
 }

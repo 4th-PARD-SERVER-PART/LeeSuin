@@ -20,16 +20,16 @@ public class User {
     private Long id;
 
     private String name;
-    private String userId;
+    private String nickname;
     private String password;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Like> likes = new ArrayList<>();
 
 
-    public void update(String name, String userId, String password){
+    public void update(String name, String nickname, String password){
         this.name = name;
-        this.userId = userId;
+        this.nickname = nickname;
         this.password = password;
     }
 }

@@ -16,11 +16,11 @@ public class UserResponse {
     @AllArgsConstructor
     public static class ReadUser{
         private String name;
-        private String userId;
+        private String nickname;
         private String password;
 
         public static ReadUser from(User user){
-            return new ReadUser(user.getName(),user.getUserId(), user.getPassword());
+            return new ReadUser(user.getName(),user.getNickname(), user.getPassword());
         }
     }
 }

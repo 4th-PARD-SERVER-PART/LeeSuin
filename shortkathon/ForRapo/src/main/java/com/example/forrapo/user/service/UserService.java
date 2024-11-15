@@ -30,7 +30,7 @@ public class UserService {
         return UserResponse.ReadUser.from(user);
     }
     public void createUser(UserRequest.UserCreateRequest req){
-        User u = new User(null, req.getName(), req.getUserId(), req.getPassword(), new ArrayList<>());
+        User u = new User(null, req.getName(), req.getNickname(), req.getPassword(), new ArrayList<>());
         userRepository.save(u);
     }
     public void deleteUser(Long userId){

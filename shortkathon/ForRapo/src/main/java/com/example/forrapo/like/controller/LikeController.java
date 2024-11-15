@@ -14,7 +14,7 @@ public class LikeController {
     private final LikeService likeService;
 
     @PostMapping("/{userId}/{postId}")
-    public void toggleLike(@PathVariable Long user_id, @PathVariable Long postId){
-        likeService.toggleLike(user_id, postId);
+    public void toggleLike(@PathVariable Long userId, @PathVariable Long postId){
+        likeService.toggleLike(userId, postId);
     }
 }
